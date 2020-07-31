@@ -1,0 +1,20 @@
+##Redis服务器地址
+#spring:
+#  redis:
+#    host: 192.168.0.240    #Redis服务器地址
+#    port: 6379             #服务器连接端口
+#    password:              #redis服务器连接密码(默认为空)
+#    jedis:                 #连接池最大连接数(如果配置<=0，则没有限制)
+#      pool:
+#        max-active: 8
+#    database: 4
+#
+#---
+#spring:
+#  application:
+#    name: nacos-config-client
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        file-extension: yml
